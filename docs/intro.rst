@@ -6,10 +6,11 @@ There's various ways of creating this file, kickstarting with the ``cabal
 init`` command or the summoner_ TUI [#]_ or by copying another cabal file and
 changing field values by hand.
 
-We choose another package format here and translate that to the cabal format
-with the ``dhall-hpack-cabal`` command. The dialect of field names is the same
-as hpack's but choosing to use ``.dhall`` gives us the power of a configuration
-programming language with functions, types and imports.
+We offer another package format.  The dialect of field names is the same as
+hpack_'s but Dhall_ gives us the power of a configuration programming language
+with functions, types and imports. We can translate the default
+``package.dhall`` file to the cabal format with the ``dhall-hpack-cabal``
+command.
 
 .. note::
    A package specified in a ``package.yaml`` file instead of a ``.cabal`` file
@@ -24,4 +25,6 @@ programming language with functions, types and imports.
 
 
 .. _summoner: https://kowainik.github.io/projects/summoner
+.. _hpack: https://github.com/sol/hpack
+.. _Dhall: https://dhall-lang.org/
 .. [#] Terminal User Interface

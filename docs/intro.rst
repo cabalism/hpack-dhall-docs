@@ -15,8 +15,8 @@ command.
 .. note::
    A package specified in a ``package.yaml`` file instead of a ``.cabal`` file
    is only good for packaging tools aware of ``hpack``.  We'd like to see both
-   cabal2nix and stack drop support for hpack and recommend using ``hpack`` on
-   its own to create the ``.cabal`` file.
+   cabal2nix_ and stack_ drop support for hpack and recommend using ``hpack``
+   on its own to create the ``.cabal`` file.
 
    We welcome the growing number of alternative ways to describe packages but
    please use these upstream tools to convert to cabal package descriptions. It
@@ -27,4 +27,6 @@ command.
 .. _summoner: https://kowainik.github.io/projects/summoner
 .. _hpack: https://github.com/sol/hpack
 .. _Dhall: https://dhall-lang.org/
+.. _cabal2nix: https://github.com/NixOS/cabal2nix
+.. _stack: https://docs.haskellstack.org/
 .. [#] Terminal User Interface
